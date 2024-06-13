@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <link rel="stylesheet" href="job_application_css.css">
+</head>
+<body>
+    <center><h1>JOB APPLICATION</h1></center>
+    <form action="abc.js" method="post" >
+        <label for="FirstName" >FirstName</label>
+            <br>
+        <input type="text" name="Firstname" id="Firstname" placeholder="Enter firstName" required>
+            <br><br>
+        <label for="LastName">LastName</label>
+            <br>
+        <input type="text" name="LastName" id="LastName" placeholder="Enter lastName">
+            <br><br>
+
+
+<!-- Email -->
+        <label for="Email">Enter your Email</label>
+        <br>
+        <input type="email" name="Email" id="Email" placeholder="Enter Email">
+        <br><br>
+
+
+<!-- MobileNo -->
+        <label for="MobileNumber">Enter Mobile Number</label>
+        <br>
+        <input type="number"  name="MobileNumber" id="MobileNumber" pattern="[6-9]{1}[0-9]{9}" maxlength="10" placeholder="Mobile Number">
+        <br><br>
+<!--DOB-->
+        <label for="DOB">Date of Birth</label>
+        <br>
+        <input type="date" name="DOB" id="DOB">
+        <br><br>
+
+<!-- Education UG/PG -->
+        <label for="Degree">Select Highest Qualification</label>
+        <br>
+        <select name="Degree" id="Degree">
+            <option value="UnderGraduate">UG</option>
+            <option value="PostGraduate">PG</option>
+        </select>
+        <br><br>
+
+
+<!-- YOP -->
+        <label for="YOP">Select your Graduation year</label>
+            <br>
+            <select name="YOP" id="YOP">
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+                <option value="2022">2022</option>
+                <option value="2021">2021</option>
+            </select>
+            <br><br>
+
+
+<!-- Graduate college-->
+        <label for="Graduation_College">Enter College Name</label>
+            <br>
+        <input type="text" name="Graduation_College" id="Graduation_College">
+            <br><br>
+
+
+<!--Branch-->
+        <label for="Branch">Select your Branch</label>
+        <br>
+        <select name="Branch" id="Branch">
+            <option value="ECE">Electronics and Communication</option>
+            <option value="EEE">Electrical and Electronic</option>
+            <option value="CSE">Computer Science</option>
+            <option value="IT">information Technology</option>
+            <option value="ME">Mechanical</option>
+            <option value="CE">Civil</option>
+            <option value="others">Other</option>
+        </select>
+        <br><br>
+                
+
+<!--CGPA-->
+        <label for="CGPA">Enter CGPA</label>
+        <br>
+        <input type="number" step="0.01" name="CGPA" id="CGPA" placeholder="Ex:9.7">
+        <br><br>
+
+
+<!--skills MS -->
+        <label for="skills">Select your skills:</label>  <br>
+            <input type="checkbox" name="Python" id="Python">
+            <label for="Python">Python</label>                  <br>
+
+            <input type="checkbox" name="Java" id="Java">
+            <label for="Java">Java</label>                      <br>
+
+            <input type="checkbox" name="SQL" id="SQL">
+            <label for="SQL">SQL</label>                        <br>
+
+            <input type="checkbox" name="C" id="C">
+            <label for="C">C</label>                        <br>
+
+            <input type="checkbox" name="C++" id="C++">
+            <label for="C++">C++</label>                        <br>
+
+            <input type="checkbox" name="HTML" id="HTML">
+            <label for="HTML">HTML</label>                        <br>
+
+            <input type="checkbox" name="CSS" id="CSS">
+            <label for="CSS">CSS</label>                        <br>
+
+            <input type="checkbox" name="JS" id="JS">
+            <label for="JS">javaScript</label>                        <br>
+
+            
+            <br>
+<!--JOB ROLE APPLYING RB-->
+        <label for="skills">Job Role Applying:</label>  <br>
+            <input type="radio" name="skills" id="Python_FSD">
+            <label for="Python_FSD">Python Full Stack Developer</label>  <br>
+            
+            <input type="radio" name="skills" id="Java_FSD">
+            <label for="Java_FSD">Java Full Stack Developer</label>      <br>
+            
+            <input type="radio" name="skills" id="FrontEnd">
+            <label for="FrontEnd">Frontend Developer</label>    <br>
+            
+            <input type="radio" name="skills" id="Data_Engineer">
+            <label for="Data_Engineer">Data Engineer</label>    <br>
+                    <br>
+
+<!--Notice period-->
+        <label for="Notice_Period">Enter Notice Period(In Months):</label>
+        <br>
+        <input type="number"  name="Notice_Period" id="Notice_Period" placeholder="Ex:1">
+        <br><br>
+
+<!--Resume -->
+        <label for="Resume">Upload Resume</label>
+            <br>
+        <input type="file" name="Resume" id="Resume" >
+        <br><br>
+
+<!--Photoid -->
+
+<!--linkedin profile-->
+        <label for="linkedin_profile">Linkedin Profile link </label>
+        <input type="link" placeholder="Link">
+<!--work experience datalist-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <input type="submit" value="SUBMIT" formnovalidate="formnovalidate">
+    <!--<input type="submit" formtarget="_blank" value="Submit to a new window/tab">
+    </form> -->
+</body>
+</html>
